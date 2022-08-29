@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0574dde9cdceac0ea0057e55d6cc390e",
+    "content-hash": "21daab79cc5b855f8b5408801149bb93",
     "packages": [
+        {
+            "name": "minicli/curly",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/minicli/curly.git",
+                "reference": "d6f1e87a28f25a1312c6ec38e3595c43efeabb12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/minicli/curly/zipball/d6f1e87a28f25a1312c6ec38e3595c43efeabb12",
+                "reference": "d6f1e87a28f25a1312c6ec38e3595c43efeabb12",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.7",
+                "pestphp/pest": "^1.21"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minicli\\Curly\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple Curl Client",
+            "homepage": "https://github.com/erikaheidi/minicli",
+            "keywords": [
+                "api",
+                "curl",
+                "wrapper"
+            ],
+            "support": {
+                "issues": "https://github.com/minicli/curly/issues",
+                "source": "https://github.com/minicli/curly/tree/0.2.1"
+            },
+            "time": "2022-08-04T15:58:52+00:00"
+        },
         {
             "name": "minicli/minicli",
             "version": "3.2.0",

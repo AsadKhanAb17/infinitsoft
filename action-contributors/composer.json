@@ -1,5 +1,6 @@
 {
     "require": {
-        "minicli/minicli": "^3.2"
+        "minicli/minicli": "^3.2",
+        "minicli/curly": "^0.2.1"
     }
 }
